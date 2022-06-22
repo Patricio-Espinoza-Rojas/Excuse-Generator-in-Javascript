@@ -7,6 +7,6 @@ function generate() {
     "I won't do anything until the boss tells me what to do",];
 
     var rand_excuse = Math.floor(Math.random() * excuse.length);
-    document.getElementById('result').innerHTML = "<h1>Excuse:</h1><div class='alert alert-success'><h2>" + excuse[rand_excuse] + " " + "</h2></div>";
+    document.getElementById('result').innerHTML = "<h1>Excuse!:</h1><div class='alert alert-success'><h2>" + excuse[rand_excuse] + " " + "</h2></div>";
 
 }
