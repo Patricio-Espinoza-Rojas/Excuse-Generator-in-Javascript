@@ -9,21 +9,20 @@
       crossorigin="anonymous"
     />
 	</head>
-<body>
-    <div class="position-relative my-3">
-	<nav class="navbar navbar-default position-absolute top-100 start-50 translate-middle mt-1">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="">Excuse-Generator!!!</a>
+<body class="bg-light bg-gradiente">    
+	<nav class="navbar bg-dark">
+		<div class="container-fluid nav justify-content-center">
+			<a class="navbar-brand text-light fs-3" href="">Excuse-Generator!!!</a>
 		</div>
 	</nav>
-    </div>
     
-	<div class="position-relative"> 
-        <div class="col-md-6 position-absolute top-50 start-50 my-5">
-            <h3 class="text-primary">Excuse Generator</h3>
+    
+	<div class="container"> 
+        <div class="col-md-8 offset-md-4 py-4">
+            <h3 class="text-primary fs-1">Generate your excuse</h3>
             <hr style="border-top:1px dotted #ccc;"/>
             <div class="col-md-6">
-                <button class="btn btn-primary btn btn-block" onclick="generate()">press the button.</button>
+                <button class="btn btn-primary btn btn-block fs-3" onclick="generate()">press the button.</button>
                 <div id="result"></div>
             </div>
         </div>
